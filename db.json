@@ -1,0 +1,165 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Blue T-shirt",
+      "price": 110000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 7
+    },
+    {
+      "id": "3",
+      "name": "Blue T-shirt",
+      "price": 20000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 0
+    },
+    {
+      "id": "4",
+      "name": "purple T-shirt",
+      "price": 20000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 0
+    },
+    {
+      "id": "5",
+      "name": "White T-shirt",
+      "price": 90000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 12
+    },
+    {
+      "id": "6",
+      "name": "Red T-shirt",
+      "price": 120000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 8
+    },
+    {
+      "id": "7",
+      "name": "Green T-shirt",
+      "price": 80000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 15
+    },
+    {
+      "id": "8",
+      "name": "Yellow T-shirt",
+      "price": 135000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 3
+    },
+    {
+      "id": "9",
+      "name": "Grey T-shirt",
+      "price": 105000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 13
+    },
+    {
+      "id": "10",
+      "name": "Long Sleeve T-shirt (Black)",
+      "price": 140000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 2
+    },
+    {
+      "id": "11",
+      "name": "Long Sleeve T-shirt (White)",
+      "price": 130000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 5
+    },
+    {
+      "id": "12",
+      "name": "Hoodie (Black)",
+      "price": 200000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 1
+    },
+    {
+      "id": "13",
+      "name": "Hoodie (Grey)",
+      "price": 190000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 4
+    },
+    {
+      "id": "14",
+      "name": "Polo Shirt (Blue)",
+      "price": 125000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 8
+    },
+    {
+      "id": "15",
+      "name": "Polo Shirt (White)",
+      "price": 118000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 7
+    },
+    {
+      "id": "16",
+      "name": "Dress (Floral)",
+      "price": 180000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 3
+    },
+    {
+      "id": "17",
+      "name": "Dark Black T-shirt",
+      "price": 110000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 5
+    },
+    {
+      "id": "18",
+      "name": "Blue T-shirt",
+      "price": 110000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 7
+    },
+    {
+      "id": "19",
+      "name": "Blue T-shirt",
+      "price": 20000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 0
+    },
+    {
+      "id": "20",
+      "name": "purple T-shirt",
+      "price": 20000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 0
+    },
+    {
+      "id": "21",
+      "name": "White T-shirt",
+      "price": 90000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 12
+    },
+    {
+      "id": "22",
+      "name": "Red T-shirt",
+      "price": 120000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 8
+    },
+    {
+      "id": "23",
+      "name": "Green T-shirt",
+      "price": 80000,
+      "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+      "stock": 15
+    },
+    {
+      "id": "24",
+      "name": "Yellow T-shirt",
+      "price": 135000,
+      "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
+      "stock": 3
+    }
+  ]
+}

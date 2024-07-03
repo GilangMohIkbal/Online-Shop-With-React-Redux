@@ -1,0 +1,104 @@
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { useState } from "react";
+
+const LoginPage = () => {
+  const [inputUsername, setInputUsername] = useState("");
+  const [inputPassword, setInputPassword] = useState("");
+  const [inputUsernameMessage, setInputUsernameMessage] = useState("");
+  const [inputPasswordMessage, setInputPasswordMessage] = useState("");
+
+  const handleLogin = () => {
+    const usernameIsValid = inputUsername.length >= 3;
+    const passwordIsValid = inputPassword.length >= 8;
+
+    if (!usernameIsValid) {
+      alert("username need to be 3 character");
+      return;
+    }
+    if (!passwordIsValid) {
+      alert("password need to be 8 character");
+      return;
+    }
+    alert(`username ${inputUsername}, password : ${inputPassword}`);
+  };
+
+  const [isChecked, setIsChecked] = useState(false);
+  d;
+  return (
+    <main className="px-4 container py-8 flex flex-col justify-center items-center max-w-screen-md h-[80vh]">
+      <form className="w-full max-w-[540px]" onSubmit={handleLogin}>
+        <Card>
+          <CardHeader>
+            <CardTitle>Welcome Back!</CardTitle>
+          </CardHeader>
+          <CardContent className="flex flex-col gap-2 ">
+            <div>
+              <Label htmlFor="username">Username</Label>
+              <Input
+                id="username"
+                onChange={(e) => {
+                  e.target.value.length < 3
+                    ? setInputUsernameMessage("username need to be 3 character")
+                    : setInputUsernameMessage("");
+                  setInputUsername(e.target.value);
+                }}
+              />
+              <p className="text-sm text-red-500 text-muted-foreground mt-1">
+                {inputUsernameMessage}
+              </p>
+            </div>
+            <div>
+              <Label htmlFor="password">Password</Label>
+              <Input
+                id="password"
+                type={isChecked ? "text" : "password"}
+                onChange={(e) => {
+                  e.target.value.length < 8
+                    ? setInputPasswordMessage("password need to be 8 character")
+                    : setInputPasswordMessage("");
+                  setInputPassword(e.target.value);
+                }}
+              />
+              <p className="text-sm text-red-500 text-muted-foreground mt-1">
+                {inputPasswordMessage}
+              </p>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Checkbox
+                id="show-password"
+                onCheckedChange={(checked) => setIsChecked(checked)}
+              />
+
+              <Label htmlFor="show-password">Show Paswword</Label>
+            </div>
+          </CardContent>
+          <CardFooter>
+            <div className="flex flex-col space-y-4 w-full">
+              <Button
+                type="submit"
+                disabled={inputUsername.length < 3 || inputPassword.length < 8}
+              >
+                Login
+              </Button>
+              <Button variant="link" className="w-full">
+                Sign Up
+              </Button>
+            </div>
+          </CardFooter>
+        </Card>
+      </form>
+    </main>
+  );
+};
+
+export default LoginPage;
