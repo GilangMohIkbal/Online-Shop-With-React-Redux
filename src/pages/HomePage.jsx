@@ -1,9 +1,12 @@
 import { ProductCard } from "../components/ProductCard";
 import { axiosInstance } from "@/lib/axios";
 import { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
 const HomePage = () => {
   const [products, setProducts] = useState([]);
   const [productIsLoading, setProductIsLoading] = useState(false);
+
+  const userSelector = useSelector((state) => state.user);
   const fetchProduct = async () => {
     setProductIsLoading(true);
     try {
