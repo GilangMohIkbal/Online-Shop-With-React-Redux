@@ -1,7 +1,12 @@
+import { SignedInPage } from "@/components/guard/SignedInPage";
+
 const cartPage = () => {
   return (
     <>
-      <div>cart page</div>
+      <p>tes</p>
+      <SignedInPage>
+        <div>cart page</div>
+      </SignedInPage>
     </>
   );
 };

@@ -161,5 +161,19 @@
       "image": "https://cdn.engelbert-strauss.de/assets/pdp/images/Original/product/1.Release.3100031/e_s_T-Shirt_cotton-8055-3-637868075235549114.png",
       "stock": 3
     }
+  ],
+  "users": [
+    {
+      "id": "e61d",
+      "username": "iqbal",
+      "password": "password",
+      "role": "user"
+    },
+    {
+      "id": "cb1d",
+      "username": "admin",
+      "password": "password",
+      "role": "admin"
+    }
   ]
 }

@@ -9,10 +9,18 @@ import ProductDetailPage from "./pages/ProductDetailPage";
 import ProductManagementPage from "./pages/admin/ProductManagementPage";
 import CreateProductPage from "./pages/admin/CreateProductPage";
 import EditProductPage from "./pages/admin/EditProductPage";
+import CounterPage from "./pages/CounterPage";
+import RegisterPage from "./pages/RegisterPage";
+import cartPage from "./pages/CartPage";
+import { useHydration } from "./hooks/useHydration";
 
 function App() {
   const location = useLocation();
+  const { isHydrated } = useHydration();
 
+  if (!isHydrated) {
+    return <div>Loading...</div>;
+  }
   return (
     <>
       {!location.pathname.startsWith("/admin") ? <Header /> : null}
@@ -20,8 +28,11 @@ function App() {
       <Routes>
         <Route path="/" Component={HomePage} />
         {/* <Route path="/cart" Component={cartPage} /> */}
-        <Route path="/cart" lazy={() => import("./pages/CartPage")} />
+        {/* <Route path="/cart" lazy={() => import("./pages/CartPage")} /> */}
+        <Route path="/cart" Component={cartPage} />
         <Route path="/login" Component={LoginPage} />
+        <Route path="/register" Component={RegisterPage} />
+        <Route path="/counter" Component={CounterPage} />
         <Route path="/product/:productId" Component={ProductDetailPage} />
         <Route path="/admin">
           <Route path="products" Component={ProductManagementPage} />
