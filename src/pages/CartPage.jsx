@@ -11,6 +11,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { axiosInstance } from "@/lib/axios";
 import { fetchCart } from "@/services/cartService";
+
 import { useSelector } from "react-redux";
 
 const cartPage = () => {
@@ -50,6 +51,11 @@ const cartPage = () => {
     });
     fetchCart(userSelector.id);
   };
+  // const handleDelayCheckout = (val) => {
+  //   console.log("tes val", val);
+  //   console.log(isPaymentUpdate);
+  //   // setIsPaymentUpdate(val)
+  // };
   return (
     <SignedInPage>
       <main className="min-h-screen max-w-screen-lg mx-auto px-4 mt-8">
@@ -68,6 +74,7 @@ const cartPage = () => {
                     quantity={cartItem.quantity}
                     stock={cartItem.product.stock}
                     cartId={cartItem.id}
+                    // delayCheckout={(val) => setIsPaymentUpdate(val)}
                   />
                 );
               })}

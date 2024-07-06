@@ -82,7 +82,7 @@
       "name": "Hoodie (Grey)",
       "price": 190000,
       "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
-      "stock": 4
+      "stock": 2
     },
     {
       "id": "14",
@@ -328,6 +328,28 @@
             "price": 90000,
             "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
             "stock": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": "e895",
+      "userId": "e61d",
+      "totalPrice": 380000,
+      "tax": 38000,
+      "transactionDate": "2024-07-06T09:59:31.658Z",
+      "items": [
+        {
+          "id": "b7c5",
+          "userId": "e61d",
+          "productId": "13",
+          "quantity": 2,
+          "product": {
+            "id": "13",
+            "name": "Hoodie (Grey)",
+            "price": 190000,
+            "image": "https://marketplace.canva.com/print-mockup/bundle/E9Me4jcyzMX/fit:female,pages:double-sided,surface:marketplace/product:171618,surface:marketplace/EAFhG-QWahU/2/0/933w/canva-black-and-white-minimalist-typography-t-shirt-AO-OS34nryc.png?sig=b6208d2bd46d9d59b6b072bcfcd19c49&width=800c",
+            "stock": 4
           }
         }
       ]

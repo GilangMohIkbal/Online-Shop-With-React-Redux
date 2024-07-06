@@ -29,11 +29,15 @@ export const CartItem = (props) => {
         quantity,
       });
       fetchCart(userSelector.id);
+      // props.delayCheckout = false;
     } catch (error) {
       console.log(error);
     }
   };
-
+  const handleIncrementQuantity = () => {
+    setQuantity(quantity + 1);
+    // props.delayCheckout = true;
+  };
   useEffect(() => {
     debounceUpdateCart();
   }, [quantity]);
@@ -60,7 +64,7 @@ export const CartItem = (props) => {
           <Button
             variant="ghost"
             size="icon"
-            onClick={() => setQuantity(quantity + 1)}
+            onClick={handleIncrementQuantity}
             disabled={quantity >= props.stock}
           >
             <IoIosAdd className="w-4 h-4" />
