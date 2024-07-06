@@ -4,12 +4,16 @@ import { IoCart, IoHeart } from "react-icons/io5";
 import { Separator } from "./ui/separator";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import { axiosInstance } from "@/lib/axios";
+import { useEffect } from "react";
+import { fetchCart } from "@/services/cartService";
 
 export const Header = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   // const counterSelector = useSelector((state) => state.counter);
   const userSelector = useSelector((state) => state.user);
+  const cartSelector = useSelector((state) => state.cart);
   const handleLogOut = () => {
     localStorage.removeItem("current-user");
     dispatch({
@@ -17,6 +21,27 @@ export const Header = () => {
     });
     navigate("/login");
   };
+
+  // const fetchCart = async () => {
+  //   try {
+  //     const cartResponse = await axiosInstance.get("/carts", {
+  //       params: {
+  //         userId: userSelector.id,
+  //         _embed: "product",
+  //       },
+  //     });
+  //     dispatch({
+  //       type: "CART_GET",
+  //       payload: cartResponse.data,
+  //     });
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
+
+  useEffect(() => {
+    fetchCart(userSelector.id);
+  }, []);
   return (
     <header className="w-full h-16 flex justify-between px-8 items-center border-b">
       {/* BRAND */}
@@ -35,8 +60,11 @@ export const Header = () => {
       <div className="flex space-x-4 h-5 items-center">
         <div className="flex space-x-2">
           <Link to="/cart">
-            <Button size="icon" variant="ghost">
-              <IoCart className="h-6 w-6" />
+            <Button variant="ghost">
+              <IoCart className="h-6 w-6 mr-2" />
+              <span className="text-lg font-bold">
+                {cartSelector.items.length}
+              </span>
             </Button>
           </Link>
           <Button size="icon" variant="ghost">
